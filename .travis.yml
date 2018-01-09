@@ -8,7 +8,7 @@ script:
 - export HLINT_ARGUMENTS=src
 - export UNIPLATE_VERBOSE=-1
 - curl -sL https://raw.github.com/ndmitchell/neil/master/travis.sh | sh
-- neil binary
+- /home/travis/.cabal/bin/neil binary
 
 deploy:
   provider: releases
