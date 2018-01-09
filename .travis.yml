@@ -13,7 +13,7 @@ script:
 deploy:
   provider: releases
   api_key:
-    secure: YOUR_API_KEY_ENCRYPTED
+    secure: "lLpRULH/P0U22cVjHTMkqLa5ixMbm4UQ6mbj2YKsIb9RpQaF1FKfzDhvPtmSBF6lmv2yXwSCOrixxaUaan1zph4VwOV05d5/A5vNY5uoT0cDSvkjFSHi9i9gxACq8o/WvQJgFG+0pRuKGaeA3sJXmNCfwzeSJ68XQmZq6i7xFRFIGSWuAh951yyOaiQMKmP5P8rmC2zDOAsnqNt0Jqtnv5JjNdy8iwqwaHvwaTJRaKFaFFV4E/yXk7n4tjWEd+w0mk22F0bkN/awO2HNNPtcFwLg0YVFaj5nH3DpaC17lesqB2waFCC9mgtUoCcyd0WsJicNkS+kaFFUhEffTk83VCY91SrIziclmbiTxDKPeByilQRoZHxubn4B+q1hN9YaT/S4cADgSneO7IBy8xBoAQ6aVhkG6A84t5xN/61xIEwHrQRPuwbleCmMR4pS2yphjw9MuQSx1p4DQCZ7KTSTNQQX+MJJfW9jHekmKnl9G8lso4IQBdBvNOkyQHjuwuNqHrns2GQWF+tLe0VxEhpGGWR9jKCgoP7kqwxlD0xmkDR6eFUq2glp0q+zTgjXol3Ut8+6IPBDb/GEaLCJTfUbRwADsNMN2Q4r4hI9CZWlIAba+rNEgXeeklBvEm9Xc50tZshzgPp9txuBqNRRwrHK6leEQBAAZ/xoSQ/NdfjjMc0="
   file_glob: true
   file: dist/bin/*
   skip_cleanup: true
