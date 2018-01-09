@@ -8,3 +8,15 @@ script:
 - export HLINT_ARGUMENTS=src
 - export UNIPLATE_VERBOSE=-1
 - curl -sL https://raw.github.com/ndmitchell/neil/master/travis.sh | sh
+- neil binary
+
+deploy:
+  provider: releases
+  api_key:
+    secure: YOUR_API_KEY_ENCRYPTED
+  file_glob: true
+  file: dist/bin/*
+  skip_cleanup: true
+  on:
+    tags: true
+    condition: $GHCVER = 8.4.1
