@@ -19,4 +19,4 @@ deploy:
   skip_cleanup: true
   on:
     tags: true
-    condition: $GHCVER = 8.4.1
+    condition: $GHCVER = 8.2.1
